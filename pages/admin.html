@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="stylesheet" href="../style/main.css">
+  <script type="module" src="../scripts/admin.js"></script>
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="../index.html">home</a></li>
+          <li><a href="./admin.html">admin</a></li>
+          <li><a href="./login.html">login</a></li>
+        </ul>
+      </nav>
+
+      <button id="logout-btn">logout</button>
+    </header>
+
+    <main>
+      <h1>Admin page</h1>
+      <h2>New product</h2>
+      <div id="app">
+
+      </div>
+      <div id="admin-page">
+        <input type="text" id="title" placeholder="Title">
+        <input type="number" id="price" placeholder="Price">
+        <input type="text" id="description" placeholder="Description">
+        <button id="add-button">Add</button>
+    </div>
+    <div id="products-list"></div>
+    </main>
+
+
+
+    <footer>copyright &copy; 2024</footer>
+  </div>
+</body>
+
+</html>
